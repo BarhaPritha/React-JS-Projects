@@ -1,0 +1,50 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  padding: 1em;
+  margin: 2em;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px black;
+  text-align: left;
+  width: 200px;
+  background-color: rgb(72, 25, 115);
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardImg{
+  float: left;
+  padding: 20px;
+}
+
+.cardImg img{
+  height: 160px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cardInfo{
+  padding: 0px 20px;
+}
+
+@media only screen and (min-width: 500px) {
+  
+  .card{
+    width: 500px;
+  }
+
+  .cardImg{
+    padding-right: 30px;
+  }
+
+}
